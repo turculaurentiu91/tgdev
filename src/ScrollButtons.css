@@ -1,0 +1,25 @@
+.scroll-buttons {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-buttons button {
+  border: 0;
+  background-color: #19a3ce;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  margin-bottom: .7rem;
+  cursor: pointer;
+  outline: 0;
+}
+
+.scroll-buttons button:hover {
+  background-color: #137fa1;
+}
